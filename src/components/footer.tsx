@@ -30,7 +30,14 @@ export default function Footer(){
     }, []);
 
     return(
+      <div>
+        <div className="flex items-center justify-center my-8">
+          <hr className="border-t-2 border-gray-400 w-1/2" />
+        </div>
+
         <footer className="bg-gray-900 text-white py-12">
+        
+
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
@@ -73,5 +80,6 @@ export default function Footer(){
           </div>
         </div>
       </footer>
+      </div>
     );
 };
