@@ -105,3 +105,4 @@ const Chatbot = () => {
 };
 
 export default Chatbot;
+// Compare this snippet from src/components/Chatbot.tsx:
